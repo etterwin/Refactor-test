@@ -57,16 +57,7 @@ h3 {text-align:center; font-size:24px; font-weight:700;}
     margin:0 auto;
 }
 
-.answer {
-    display:block;
-    font-size:18px;
-    max-width:300px;
-    padding-left:45px;
-    line-height:35px;
-    margin: 10px auto;
-    cursor:pointer;
-    background:url('../assets/pictures/check.png') left -61px no-repeat;
-}
+
 
 .answer.checked {
     background-position:left 0;
@@ -97,7 +88,7 @@ h3 {text-align:center; font-size:24px; font-weight:700;}
 
 .btn-de{
     display:block;
-    margin:0 auto;
+    margin:50px auto 0;
     width:230px;
     color:#fff;
     font-size:24px;

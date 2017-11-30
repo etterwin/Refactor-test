@@ -133,11 +133,33 @@ h2 {
 		outline:none;
 		cursor:pointer;
 	}
+
+	.answer {
+		display:block;
+		max-width:700px;
+		padding-left:45px;
+		font-size: 16px;
+		line-height:35px;
+		margin: 10px auto;
+		cursor:pointer;
+		background:url('../assets/pictures/check.png') left -61px no-repeat;
+	}
 }
 
 @media screen and (max-width: 767px) {
 	.step_v2 {
 		width: 95%;
+	}
+
+	.answer {
+		display:block;
+		width: 100%;
+		padding-left:45px;
+		font-size: 16px;
+		line-height:35px;
+		margin: 10px auto;
+		cursor:pointer;
+		background:url('../assets/pictures/check.png') left -61px no-repeat;
 	}
 
 	.content_box li {
@@ -244,10 +266,18 @@ h2 {
 		display: none;
 	}
 
+
+
 	.answer {
+		display:block;
 		width: 100%;
-		margin: 10px auto;
+		padding-left:45px;
 		font-size: 14px;
+		line-height: 1;
+		height: 35px;
+		margin: 10px auto;
+		cursor:pointer;
+		background:url('../assets/pictures/check.png') left -61px no-repeat;
 	}
 
 	.content_box li {
