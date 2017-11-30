@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+	<title>Up for It</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+	<link rel="icon" href="assets/pictures/valentines-heart.png" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/pictures/valentines-heart.png" type="image/x-icon">
+
+	<link href="css/landing4.css" rel="stylesheet" type="text/css">
+	<link href="css/landing4_2.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+
+	<script type="text/javascript" src="js/lpjl-core.min.js"></script>
+	<script type="text/javascript" src="js/lpjl-uic4ca.js?1"></script>
+	<script type="text/javascript" src="js/cookie.js"></script>
+	<script type="text/javascript" src="js/changeBg.js"></script>
+	<script type="text/javascript" src="js/test-es.js"></script>
+	<noscript>
+		<img src="http://www.tns-counter.ru/V13a****rbc_ru/ru/UTF-8/tmsec=loveplanet_total/" width="1" height="1"
+			 class="p_abs" alt="tns-counter">
+	</noscript>
+
+</head>
+
+<body>
+
+	<div class="height_full">
+
+		<form action="http://adbomb.pro/click.php?lp=1" id='registerform'>
+
+			<!-- slide 1 -->
+			<div class="step_v2" id="slide1" style="display:block">
+
+				<div class="title_box">
+		
+					<div class="logo_box_lp">
+						<img src="assets/pictures/logo.png" alt=""  height="48">
+					</div>
+
+					Ahora mismo hay muchas personas solteras en este sitio web que desean conocer gente nueva
+
+				</div>
+	
+				<div class="content_box">
+
+					<h2>Elija el propósito de su cita:</h2>
+
+					<ul class="reset">
+						<li class="sex">
+							<button id="first3" type="button" value="3" class="btn_v2"
+									onclick="changebg_btn(this);nextSlide(1,2);">SEXO</button>
+						</li>
+						<li class="romance">
+							<button id="first4" type="button" value="4" class="btn_v2"
+									onclick="changebg_btn(this);nextSlide(1,2);">ROMANCE</button>
+						</li>
+						<li class="marriage">
+							<button id="first1" type="button" value="1" class="btn_v2"
+									onclick="changebg_btn(this);nextSlide(1,2);">MATRIMONIO</button>
+						</li>
+						<li class="friendship">
+							<button id="first2" type="button" value="2" class="btn_v2"
+									onclick="changebg_btn(this);nextSlide(1,2);">AMISTAD</button>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+			<!-- slide 2 -->
+			<div class="step" id="slide2" style="display:none">
+
+				<h3>Elija:</h3>
+
+				<div class="col1 fl" >
+
+					<img src="assets/pictures/iwomen.png" alt="">
+					<a href="#" class="btn" onclick="addPol(2); nextSlide(2,3);">Soy una chica</a>
+
+				</div>
+
+				<div class="col2 fr" >
+
+					<img src="assets/pictures/imen.png" alt="">
+					<a href="#" class="btn" onclick="addPol(1); nextSlide(2,3);">oy un chico</a>
+
+				</div>
+
+				<div class="cb"></div>
+
+			</div>
+
+			<input type="hidden" name="pol" value="1" id="landpol">
+
+			<!-- slide3 -->
+			<div class="step" id="slide3" style="display:none">
+
+				<h3>Muéstreme:</h3>
+
+				<div class="col1 fl" >
+
+					<div class="wantwomen"></div>
+					<a href="#" class="btn" onclick="nextSlide(3,4);">Chicas</a>
+
+				</div>
+
+				<div class="col2 fr" >
+
+					<div class="wantmen"></div>
+
+					<a href="#" class="btn" onclick="nextSlide(3,4);">Chicos</a>
+
+				</div>
+
+				<div class="cb"></div>
+
+			</div>
+
+			<!-- slide4 -->
+			<div class="step" id="slide4" style="display:none">
+
+				<h3>Seleccione la edad preferida de su partner:</h3>
+
+				<div class="col1 fl" >
+
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">18-21</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">21-25</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">25-32</label>
+
+				</div>
+
+				<div class="col2 fr" >
+
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">32-37</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">37-45</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">45+</label>
+
+				</div>
+
+				<div class="cb"></div>
+
+				<a href="#" class="btn" onclick="nextSlide(4,5);">Continuar</a>
+
+			</div>
+
+			<!-- slide5 -->
+			<div class="step" id="slide5" style="display:none">
+
+				<h3>Su tipo de cuerpo:</h3>
+
+				<div style="margin:0 auto; width:280px">
+
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Normal</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Deportivo</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Gordito</label>
+
+				</div>
+
+				<a href="#" class="btn" onclick="nextSlide(5,6);">Continuar</a>
+
+			</div>
+
+			<!-- slide6 -->
+			<div class="step" id="slide6" style="display:none">
+
+				<h3>Me pongo con:</h3>
+
+				<div class="col1 fl">
+
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Sexo clásico</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">BDSM</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Porno</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Fetichismo</label>
+
+				</div>
+
+				<div class="col2 fr">
+
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Maduros</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Jóvenes</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Parejas</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">Sexo oral</label>
+
+				</div>
+
+				<div class="cb"></div>
+
+				<a href="#" class="btn" onclick="nextSlide(6,7);">Continuar</a>
+
+			</div>
+
+			<!-- slide7 -->
+			<div class="step" id="slide7" style="display:none">
+
+				<h3>Distancia de su pareja de usted?</h3>
+
+				<div class="col1 fl" >
+
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">En un radio de 2 km</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">En un radio de 10 km</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">misma ciudad</label>
+
+				</div>
+
+				<div class="col2 fr" >
+
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">mismo país</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">otro país</label>
+					<label class="answer"><input type="checkbox" onclick="checkuncheck(this)">no importa</label>
+
+				</div>
+
+				<div class="cb"></div>
+
+				<a href="#" class="btn" onclick="nextSlide(7,8);startAnimation();">Continuar</a>
+
+			</div>
+
+			<!-- slide8 -->
+			<div class="step finish" id="slide8" style="display:none">
+
+				<div>
+
+					<div id="resultheader">Analizando sus respuestas…</div>
+
+					<div class="progressbar" id="progressbar">
+
+						<span class="progress" id="progress"></span>
+
+					</div>
+
+					<div class="answer checked" id="registerallow" style="display:none;">Registro completado</div>
+
+					<div id="resulttest" style="display:none">
+
+						<div class="answer checked"><strong>1,923</strong> coincidencias encontradas</div>
+
+						<div style="margin-top: 20px;">
+							<strong>Antes de descargar la aplicación, lea nuestras políticas:</strong>
+						</div>
+
+						<div class="answer firstfinish">No muestre a nadie si ve personas que conoce</div>
+
+						<div class="answer secondfinish">Respete los deseos de otros usuarios</div>
+
+						<div class="answer thirdfinish">No seremos responsables de sus relaciones con otros usuarios</div>
+
+						<a href="http://adbomb.pro/click.php?lp=1" class="btn" style="margin-top: 20px;">Descargar Upforit</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</form>
+
+
+		<div class="footer-clr"></div>
+
+	</div>
+
+	<footer class="footer">
+
+		<div class="wrap">
+			
+			<a href="http://adbomb.pro/click.php?lp=1" class="footer_logo fl"></a>
+
+			<div class="copy fl">
+					&copy; 2005-2017 &laquo;UpFotIt&raquo;.
+
+				Número total de usuarios:
+					<b><a class="blue_bm" href="http://adbomb.pro/click.php?lp=1">352&#44;455&#44;</a></b>&#44;
+
+				nuevos:
+					<b><a class="blue_bm" href="http://adbomb.pro/click.php?lp=1">5&#44;745</a></b>&#44;
+
+				en línea:
+					<b><a class="blue_bm" href="http://adbomb.pro/click.php?lp=1">38&#44;547</a></b>
+
+			</div>
+
+			<div class="fr">
+				
+				<div class="footer_age fr"></div>
+
+			</div>
+
+		</div>
+
+	</footer>
+
+	<script type="text/javascript" src="js/lpjl-core.min.js"></script>
+	<script type="text/javascript" src="js/lpjl-uic4ca.js?1"></script>
+	<script type="text/javascript" src="js/cookie.js"></script>
+	<script type="text/javascript" src="js/changeBg.js"></script>
+	<script type="text/javascript" src="js/test-es.js"></script>
+	
+</body>
+</html>
