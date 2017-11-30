@@ -145,8 +145,8 @@ h3 {text-align:center; font-size:24px; font-weight:700;}
 
 .thirdfinish{background-position:0 bottom; height:36px; line-height:18px;}
 .step img{margin-bottom:10px;}
-.wantwomen{background:transparent url('../assets/pictures/women.png') 0 0 no-repeat; width:227px; height:287px; margin-bottom:10px;}
-.wantmen{background:transparent url('../assets/pictures/men.png') 0 0 no-repeat; width:227px; height:287px; margin-bottom:10px;}
+.wantwomen{background:transparent url('../assets/pictures/wantwomensex.png') 0 0 no-repeat; width:227px; height:287px; margin-bottom:10px;}
+.wantmen{background:transparent url('../assets/pictures/wantmensex.png') 0 0 no-repeat; width:227px; height:287px; margin-bottom:10px;}
 .sex .wantwomen{background-image:url('../assets/pictures/wantwomensex.png');}
 .sex .wantmen{background-image:url('../assets/pictures/wantmensex.png');}
 
